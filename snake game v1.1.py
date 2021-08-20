@@ -8,7 +8,7 @@ highscore = 0
 
 
 #set up the screen
-# def setup_screen():
+
 screen = turtle.Screen()
 screen.title("Snake Game V1.1")
 screen.bgcolor("#545AA7")
