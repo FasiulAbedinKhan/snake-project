@@ -89,9 +89,13 @@ def move():
 #keyboard
 screen.listen()
 screen.onkeypress(go_up,"w")
+screen.onkeypress(go_up,"Up")
 screen.onkeypress(go_down,"s")
+screen.onkeypress(go_down,"Down")
 screen.onkeypress(go_right,"d")
+screen.onkeypress(go_right,"Right")
 screen.onkeypress(go_left,"a")
+screen.onkeypress(go_left,"Left")
 
 #mainloop
 
